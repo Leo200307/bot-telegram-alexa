@@ -28,8 +28,8 @@ bot.setWebHook(`${URL}/bot${TOKEN}`);
 function getWelcomeMessage() {
     return {
         type: 'photo',
-        media: 'https://i.postimg.cc/m202kJm6/img2.jpg',
-        caption: `🙈 **C-A-R-L-A😈**
+        media: 'https://i.postimg.cc/SRpS20G8/img4.jpg',
+        caption: `🙈 **ALEXA JUSTINIANO😈**
 
 🔥 **𝗦𝗨𝗦𝗖𝗥𝗜𝗕𝗘𝗧𝗘😉🔥**
 
@@ -106,7 +106,7 @@ bot.on('callback_query', async (query) => {
             await bot.editMessageMedia(
                 {
                     type: 'photo',
-                    media: 'https://i.postimg.cc/3RcQ606p/img5.jpg',
+                    media: 'https://i.postimg.cc/437sW4LS/img6.jpg',
                     caption: `𝗛𝗢𝗟𝗜 💕🔥
 TODOS MIS MÉTODOS DE PAGO 🥰
 
