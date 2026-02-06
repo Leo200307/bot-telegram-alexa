@@ -132,7 +132,7 @@ TODOS MIS MÉTODOS DE PAGO 🥰
             await bot.editMessageMedia(
                 {
                     type: 'photo',
-                    media: 'https://i.postimg.cc/vTN16cKj/Whats-App-Image-2026-01-27-at-09-05-41.jpg',
+                    media: 'https://i.postimg.cc/FHpxYskp/Whats-App-Image-2026-02-06-at-14-11-30.jpg',
                     caption: `🇧🇴 **PAGAR 100 BS**
 
 📌 Saca una captura y pagalo por tu banca  
@@ -159,7 +159,7 @@ TODOS MIS MÉTODOS DE PAGO 🥰
                     media: 'https://i.postimg.cc/5y4rgHF9/depositphotos-220680152-stock-illustration-paypal-logo-printed-white-paper.jpg',
                     caption: `💳 **PAGO POR PAYPAL**
 
-📌 Monto: **10 USD**
+📌 Monto: **11.50 USD**
 ⬇️ Envía tu correo para el cobro ⬇️`,
                 },
                 {
