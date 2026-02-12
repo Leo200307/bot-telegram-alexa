@@ -39,7 +39,7 @@ Hola, me alegro de que finalmente me hayas encontrado 🔥🔥
 Vamos al grano, ambos sabemos por qué estás aquí jeje 😏  
 Y sí, la pasarás increíble en mi VIP 🫣🔥
 
-💙 **CON UNA PROPINA DE 10 DÓLARES**  
+💙 **CON UNA PROPINA DE 11.50 DÓLARES**  
 Seras parte de mi comunidad mas especial,
 Desbloqueas fotos y videos MUY exclusivos 🔥
 
@@ -132,7 +132,7 @@ TODOS MIS MÉTODOS DE PAGO 🥰
             await bot.editMessageMedia(
                 {
                     type: 'photo',
-                    media: 'https://i.postimg.cc/rwb14zV9/Whats-App-Image-2026-02-07-at-14-16-46.jpg',
+                    media: 'https://i.postimg.cc/FHpxYskp/Whats-App-Image-2026-02-06-at-14-11-30.jpg',
                     caption: `🇧🇴 **PAGAR 100 BS**
 
 📌 Saca una captura y pagalo por tu banca  
