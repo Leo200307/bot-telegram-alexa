@@ -160,7 +160,9 @@ TODOS MIS MÉTODOS DE PAGO 🥰
                     caption: `💳 **PAGO POR PAYPAL**
 
 📌 Monto: **11.50 USD**
-⬇️ Envía tu correo para el cobro ⬇️`,
+📧 \`alejandrohinojosasoria237@gmail.com\`
+
+Envía tu captura después del pago 💎`,
                 },
                 {
                     chat_id: chatId,
@@ -168,7 +170,7 @@ TODOS MIS MÉTODOS DE PAGO 🥰
                     reply_markup: {
                         inline_keyboard: [
                             [{ text: '⬅️ Volver', callback_data: 'metodo_pago' }],
-                            [{ text: '✅ Enviar correo', url: 'https://t.me/agentedeinformacion' }]
+                            [{ text: '✅ Enviar captura', url: 'https://t.me/agentedeinformacion' }]
                         ]
                     }
                 }
