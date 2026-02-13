@@ -62,7 +62,6 @@ app.post(`/bot${TOKEN}`, async (req, res) => {
 
     const update = req.body;
 
-    // Mensaje rápido anti-sleep
     if (update.message && update.message.chat) {
         try {
             await bot.sendMessage(
@@ -120,6 +119,7 @@ TODOS MIS MÉTODOS DE PAGO 🥰
                         inline_keyboard: [
                             [{ text: '🇧🇴 QR Bolivia', callback_data: 'qr_bolivia' }],
                             [{ text: '💳 PayPal', callback_data: 'paypal' }],
+                            [{ text: '💳 Pago con tarjeta', callback_data: 'tarjeta' }],
                             [{ text: '⬅️ Volver', callback_data: 'volver' }]
                         ]
                     }
@@ -175,7 +175,38 @@ TODOS MIS MÉTODOS DE PAGO 🥰
             );
         }
 
-        // ===== VOLVER AL INICIO (EDITAR MENSAJE) =====
+        // ===== PAGO CON TARJETA =====
+        else if (query.data === 'tarjeta') {
+            await bot.editMessageMedia(
+                {
+                    type: 'photo',
+                    media: 'https://i.postimg.cc/NMF1X4FH/Screenshot_20260213_110627_Chrome.jpg',
+                    caption: `💳 **SUSCRIPCIÓN CON TARJETA**
+
+La suscripción por tarjeta es de **11.50 USD**  
+
+**Pasos para pagar:**
+
+1️⃣ Presiona el botón **Ir a pagar**  
+2️⃣ Coloca tu correo (recibirás un código)  
+3️⃣ Ingresa los datos de tu tarjeta  
+4️⃣ Envía la captura de la transacción`,
+                },
+                {
+                    chat_id: chatId,
+                    message_id: messageId,
+                    reply_markup: {
+                        inline_keyboard: [
+                            [{ text: '💳 Ir a pagar', url: 'https://app.takenos.com/pay/d46905c8-b22e-4425-864c-3d8e83dc0237' }],
+                            [{ text: '📤 Enviar captura', url: 'https://t.me/agentedeinformacion' }],
+                            [{ text: '⬅️ Volver', callback_data: 'metodo_pago' }]
+                        ]
+                    }
+                }
+            );
+        }
+
+        // ===== VOLVER AL INICIO =====
         else if (query.data === 'volver') {
             await bot.editMessageMedia(
                 {
@@ -191,10 +222,10 @@ TODOS MIS MÉTODOS DE PAGO 🥰
             );
         }
 
-        // cerrar loading
         await bot.answerCallbackQuery(query.id);
 
     } catch (e) {
         console.log('❌ Error:', e.description || e.message);
     }
 });
+
