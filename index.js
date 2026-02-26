@@ -173,7 +173,10 @@ Envía tu captura después del pago 💎`,
                     reply_markup: {
                         inline_keyboard: [
                             [{ text: '⬅️ Volver', callback_data: 'metodo_pago' }],
-                            [{ text: '✅ Enviar captura', url: 'https://t.me/agentedeinformacion' }]
+                            [{ 
+  text: '✅ Enviar captura', 
+  url: 'https://t.me/agentedeinformacion?text=Hola%20Alexa,%20te%20mando%20la%20captura,%20pagué%20por%20PayPal' 
+}]
                         ]
                     }
                 }
@@ -203,7 +206,10 @@ La suscripción por tarjeta es de **11.50 USD**
                     reply_markup: {
                         inline_keyboard: [
                             [{ text: '💳 Ir a pagar', url: 'https://app.takenos.com/pay/d46905c8-b22e-4425-864c-3d8e83dc0237' }],
-                            [{ text: '📤 Enviar captura', url: 'https://t.me/agentedeinformacion' }],
+                            [{ 
+  text: '📤 Enviar captura', 
+  url: 'https://t.me/agentedeinformacion?text=Hola%20Alexa,%20te%20mando%20la%20captura,%20pagué%20con%20tarjeta' 
+}],
                             [{ text: '⬅️ Volver', callback_data: 'metodo_pago' }]
                         ]
                     }
