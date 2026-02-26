@@ -144,7 +144,10 @@ TODOS MIS MÉTODOS DE PAGO 🥰
                     reply_markup: {
                         inline_keyboard: [
                             [{ text: '⬅️ Volver', callback_data: 'metodo_pago' }],
-                            [{ text: '✅ Ya pagué', url: 'https://t.me/agentedeinformacion' }]
+                            [{ 
+  text: '✅ Ya pagué', 
+  url: 'https://t.me/agentedeinformacion?text=Hola%20Alexa,%20te%20mando%20la%20captura,%20pagué%20por%20QR%20Bolivia' 
+}]
                         ]
                     }
                 }
