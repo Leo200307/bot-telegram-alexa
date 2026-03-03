@@ -28,7 +28,7 @@ bot.setWebHook(`${URL}/bot${TOKEN}`);
 function getWelcomeMessage() {
     return {
         type: 'photo',
-        media: 'https://i.postimg.cc/SRpS20G8/img4.jpg',
+        media: 'https://i.postimg.cc/MH0DbsyF/img4.jpg',
         caption: `🙈 **ALEXA JUSTINIANO😈**
 
 🔥 **𝗦𝗨𝗦𝗖𝗥𝗜𝗕𝗘𝗧𝗘😉🔥**
@@ -39,7 +39,7 @@ Hola, me alegro de que finalmente me hayas encontrado 🔥🔥
 Vamos al grano, ambos sabemos por qué estás aquí jeje 😏  
 Y sí, la pasarás increíble en mi VIP 🫣🔥
 
-💙 **CON UNA PROPINA DE 11.50 DÓLARES**  
+💙 **POR ESTA SEMANA CON UNA PROPINA DE 7 DÓLARES**  
 Seras parte de mi comunidad mas especial,
 Desbloqueas fotos y videos MUY exclusivos 🔥
 
@@ -191,7 +191,7 @@ Envía tu captura después del pago 💎`,
                     media: 'https://i.postimg.cc/NMF1X4FH/Screenshot_20260213_110627_Chrome.jpg',
                     caption: `💳 **SUSCRIPCIÓN CON TARJETA**
 
-La suscripción por tarjeta es de **11.50 USD**  
+La suscripción por tarjeta. POR ESTA SEMANA es de **8 USD**  
 
 **Pasos para pagar:**
 
@@ -205,7 +205,7 @@ La suscripción por tarjeta es de **11.50 USD**
                     message_id: messageId,
                     reply_markup: {
                         inline_keyboard: [
-                            [{ text: '💳 Ir a pagar', url: 'https://app.takenos.com/pay/d46905c8-b22e-4425-864c-3d8e83dc0237' }],
+                            [{ text: '💳 Ir a pagar', url: 'https://app.takenos.com/pay/e5652857-04f3-43e3-bab1-04a809389fd7' }],
                             [{ 
   text: '📤 Enviar captura', 
   url: 'https://t.me/agentedeinformacion?text=Hola%20Alexa,%20te%20mando%20la%20captura,%20pagué%20con%20tarjeta' 
