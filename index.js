@@ -132,8 +132,8 @@ TODOS MIS MÉTODOS DE PAGO 🥰
             await bot.editMessageMedia(
                 {
                     type: 'photo',
-                    media: 'https://i.postimg.cc/kMkGxJ4f/4987997335237364670.jpg',
-                    caption: `🇧🇴 **PAGAR 100 BS**
+                    media: 'https://i.postimg.cc/jSbSyFfv/IMG-20260305-WA0009.jpg',
+                    caption: `🇧🇴 **POR ESTA SEMANA PAGA 50 BS**
 
 📌 Saca una captura y pagalo por tu banca  
 ⬇️ Envía el comprobante de recibo de pago⬇️`,
