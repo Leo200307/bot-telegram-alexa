@@ -39,12 +39,10 @@ Hola, me alegro de que finalmente me hayas encontrado 🔥🔥
 Vamos al grano, ambos sabemos por qué estás aquí jeje 😏  
 Y sí, la pasarás increíble en mi VIP 🫣🔥
 
-💙 **POR ESTA SEMANA CON UNA PROPINA DE 7 DÓLARES**  
+💙 **CON UNA PROPINA DE 11.50 DÓLARES**  
 Seras parte de mi comunidad mas especial,
 Desbloqueas fotos y videos MUY exclusivos 🔥
 
-🔥 **𝗟𝗔 𝗦𝗨𝗦𝗖𝗥𝗜𝗣𝗖𝗜𝗢𝗡 𝗗𝗨𝗥𝗔 𝗨𝗡 𝗠𝗘𝗦**  
-Tipo OnlyFans 😈  
 (Contenido SOLO para suscriptores VIP)
 
 👇 Elige un método de pago para empezar`,
@@ -132,8 +130,8 @@ TODOS MIS MÉTODOS DE PAGO 🥰
             await bot.editMessageMedia(
                 {
                     type: 'photo',
-                    media: 'https://i.postimg.cc/jSbSyFfv/IMG-20260305-WA0009.jpg',
-                    caption: `🇧🇴 **POR ESTA SEMANA PAGA 50 BS**
+                    media: 'https://i.postimg.cc/kMkGxJ4f/4987997335237364670.jpg',
+                    caption: `🇧🇴 **PAGA 100 BS**
 
 📌 Saca una captura y pagalo por tu banca  
 ⬇️ Envía el comprobante de recibo de pago⬇️`,
@@ -162,7 +160,7 @@ TODOS MIS MÉTODOS DE PAGO 🥰
                     media: 'https://i.postimg.cc/5y4rgHF9/depositphotos-220680152-stock-illustration-paypal-logo-printed-white-paper.jpg',
                     caption: `💳 **PAGO POR PAYPAL**
 
-📌 Monto: POR ESTA SEMANA **7 USD**
+📌 Monto:**11.50 USD**
 📧 \`alejandrohinojosasoria237@gmail.com\`
 
 Envía tu captura después del pago 💎`,
@@ -191,7 +189,7 @@ Envía tu captura después del pago 💎`,
                     media: 'https://i.postimg.cc/NMF1X4FH/Screenshot_20260213_110627_Chrome.jpg',
                     caption: `💳 **SUSCRIPCIÓN CON TARJETA**
 
-La suscripción por tarjeta. POR ESTA SEMANA es de **8 USD**  
+La suscripción por tarjeta.es de **12 USD**  
 
 **Pasos para pagar:**
 
@@ -205,7 +203,7 @@ La suscripción por tarjeta. POR ESTA SEMANA es de **8 USD**
                     message_id: messageId,
                     reply_markup: {
                         inline_keyboard: [
-                            [{ text: '💳 Ir a pagar', url: 'https://app.takenos.com/pay/e5652857-04f3-43e3-bab1-04a809389fd7' }],
+                            [{ text: '💳 Ir a pagar', url: 'https://app.takenos.com/pay/a84a068d-4eff-4c44-b5e9-e9711a952481' }],
                             [{ 
   text: '📤 Enviar captura', 
   url: 'https://t.me/agentedeinformacion?text=Hola%20Alexa,%20te%20mando%20la%20captura,%20pagué%20con%20tarjeta' 
