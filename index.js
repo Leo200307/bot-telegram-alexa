@@ -28,8 +28,8 @@ bot.setWebHook(`${URL}/bot${TOKEN}`);
 function getWelcomeMessage() {
     return {
         type: 'photo',
-        media: 'https://i.postimg.cc/MH0DbsyF/img4.jpg',
-        caption: `🙈 **ALEXA JUSTINIANO😈**
+        media: 'https://i.postimg.cc/pXKJggRf/img6.jpg',
+        caption: `🙈 **ARIANE CESPEDES😈**
 
 🔥 **𝗦𝗨𝗦𝗖𝗥𝗜𝗕𝗘𝗧𝗘😉🔥**
 
@@ -103,7 +103,7 @@ bot.on('callback_query', async (query) => {
             await bot.editMessageMedia(
                 {
                     type: 'photo',
-                    media: 'https://i.postimg.cc/437sW4LS/img6.jpg',
+                    media: 'https://i.postimg.cc/bw8983vX/img4.jpg',
                     caption: `𝗛𝗢𝗟𝗜 💕🔥
 TODOS MIS MÉTODOS DE PAGO 🥰
 
@@ -130,7 +130,7 @@ TODOS MIS MÉTODOS DE PAGO 🥰
             await bot.editMessageMedia(
                 {
                     type: 'photo',
-                    media: 'https://i.postimg.cc/kMkGxJ4f/4987997335237364670.jpg',
+                    media: 'https://i.postimg.cc/gjXjDPLn/IMG-20260127-WA0000(1).jpg',
                     caption: `🇧🇴 **PAGA 100 BS**
 
 📌 Saca una captura y pagalo por tu banca  
@@ -144,7 +144,7 @@ TODOS MIS MÉTODOS DE PAGO 🥰
                             [{ text: '⬅️ Volver', callback_data: 'metodo_pago' }],
                             [{ 
   text: '✅ Ya pagué', 
-  url: 'https://t.me/agentedeinformacion?text=Hola%20Alexa,%20te%20mando%20la%20captura,%20pagué%20por%20QR%20Bolivia' 
+  url: 'https://t.me/bebecita0077?text=Hola%20Ariane,%20te%20mando%20la%20captura,%20pagué%20por%20QR%20Bolivia' 
 }]
                         ]
                     }
@@ -173,7 +173,7 @@ Envía tu captura después del pago 💎`,
                             [{ text: '⬅️ Volver', callback_data: 'metodo_pago' }],
                             [{ 
   text: '✅ Enviar captura', 
-  url: 'https://t.me/agentedeinformacion?text=Hola%20Alexa,%20te%20mando%20la%20captura,%20pagué%20por%20PayPal' 
+  url: 'https://t.me/bebecita0077?text=Hola%20Ariane,%20te%20mando%20la%20captura,%20pagué%20por%20PayPal' 
 }]
                         ]
                     }
@@ -203,10 +203,10 @@ La suscripción por tarjeta.es de **12 USD**
                     message_id: messageId,
                     reply_markup: {
                         inline_keyboard: [
-                            [{ text: '💳 Ir a pagar', url: 'https://app.takenos.com/pay/a84a068d-4eff-4c44-b5e9-e9711a952481' }],
+                            [{ text: '💳 Ir a pagar', url: 'https://app.takenos.com/pay/a7c043c9-9afa-4c99-aa52-47d15ef7b447' }],
                             [{ 
   text: '📤 Enviar captura', 
-  url: 'https://t.me/agentedeinformacion?text=Hola%20Alexa,%20te%20mando%20la%20captura,%20pagué%20con%20tarjeta' 
+  url: 'https://t.me/bebecita0077?text=Hola%20Ariane,%20te%20mando%20la%20captura,%20pagué%20con%20tarjeta' 
 }],
                             [{ text: '⬅️ Volver', callback_data: 'metodo_pago' }]
                         ]
