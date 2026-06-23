@@ -118,7 +118,7 @@ TODOS MIS MÉTODOS DE PAGO 🥰
                             [{ text: '🇧🇴 QR Bolivia', callback_data: 'qr_bolivia' }],
                             [{ text: '💳 PayPal', callback_data: 'paypal' }],
                             [{ text: '💳 Pago con tarjeta', callback_data: 'tarjeta' }],
-                            [{ text: '🪙 Pago con tarjeta', callback_data: 'binance' }],
+                            [{ text: '🪙 Pago con Binance', callback_data: 'binance' }],
                             [{ text: '⬅️ Volver', callback_data: 'volver' }]
                         ]
                     }
